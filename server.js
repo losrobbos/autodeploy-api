@@ -12,7 +12,7 @@ app.use( express.json() )
 
 // ROME ROUTE
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.json({ message: 'Hello from POSTS API!' });
 });
 
 // ROUTERS
